@@ -15,7 +15,7 @@
 		<![CDATA[
 	    		// calc.exe should launch, this could be any arbitrary code.
       	   		// What you are hoping to catch is the cmdline, modloads, or network connections, or any variation
-			var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
 
 		]]>
 </script>
